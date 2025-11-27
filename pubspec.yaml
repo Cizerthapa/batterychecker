@@ -1,0 +1,38 @@
+name: batterylearn
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  battery_plus: ^7.0.0
+  flutter_screenutil: ^5.9.3
+  provider: ^6.1.5+1
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flavors:
+  development:
+    name: "Battery Monitor Dev"
+    flavor: development
+  staging:
+    name: "Battery Monitor Staging"
+    flavor: staging
+  production:
+    name: "Battery Monitor"
+    flavor: production
