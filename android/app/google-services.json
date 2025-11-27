@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "785629983410",
+    "project_id": "chat-try-proj",
+    "storage_bucket": "chat-try-proj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785629983410:android:c833bb3dcc607788f8cfab",
+        "android_client_info": {
+          "package_name": "com.example.batterylearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGBx4OlREtXq0wPW7OANswGT4ZBIt-fpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
